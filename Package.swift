@@ -13,7 +13,8 @@ let package = Package(
     targets: [
         .target(
             name: "DefaultCoding",
-            path: "."
+            path: ".",
+            exclude: ["README.md", "LICENSE"]
         ),
     ]
 )
